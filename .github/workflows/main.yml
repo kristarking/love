@@ -1,0 +1,30 @@
+name: Spread Positivity
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  say-nice-things:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start with a Warm Welcome
+        run: |
+          echo "Hello, friend! 🌟"
+          echo "You're doing an amazing job so far!"
+      
+      - name: Spread Some Positivity
+        run: |
+          echo "Believe in yourself, you're capable of great things! 💪"
+          echo "Every little step counts, keep going 🚀"
+      
+      - name: Just a Small Reminder
+        run: |
+          echo "It's okay to take breaks. Rest fuels progress! 🧘‍♂️"
+          echo "If no one told you today: You're awesome! 🌈✨"
+      
+      - name: Final Goodbye with a Smile
+        run: |
+          echo "Thanks for being you 😊"
+          echo "Goodbye for now, my friend! Until next time 👋"

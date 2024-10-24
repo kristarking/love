@@ -12,4 +12,5 @@ jobs:
       - name: Hello World
         run: |
           echo "Hello World My Friend"
+          echo "Good Bye Friends"
           
